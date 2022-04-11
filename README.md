@@ -11,7 +11,7 @@
 
 
   ## Description
-  generate a readme in node using inquirer
+  to generate a readme file
 
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -23,7 +23,7 @@
   very carefully
 
   ## Contributing
-  cash app or western union
+  cash or cash app
 
   ## Tests
   testing
