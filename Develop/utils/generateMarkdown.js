@@ -6,13 +6,13 @@ function renderLicenseBadge(data) {
   if (licenseChoice === "Apache 2.0 License") {
     licenseStr = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
   };
-  if (licenseStr === "MIT") {
+  if (licenseChoice === "MIT") {
     licenseStr = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   };
-  if (licenseStr === "Attribution License (BY)") {
+  if (licenseChoice === "Attribution License (BY)") {
     licenseStr = `[![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)](https://opendatacommons.org/licenses/by/)`
   };
-  if (licenseStr === "GNU GPL v3") {
+  if (licenseChoice === "GNU GPL v3") {
     licenseStr = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
   };
   return licenseStr
