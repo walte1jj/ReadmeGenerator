@@ -4,7 +4,7 @@ function renderLicenseBadge(data) {
   const licenseChoice = data.license[0];
   let licenseStr = " "
   if (licenseChoice === "Apache 2.0 License") {
-    licenseStr = `![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`
+    licenseStr = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
   };
   if (licenseStr === "MIT") {
     licenseStr = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
@@ -40,7 +40,7 @@ function generateMarkdown(data) {
   5.  [Contributing](#contributing)
   6.  [Tests](#tests)
   7.  [GitHub](#github)
-  8.  [Email Address](#email)
+  8.  [Email](#email)
 
   ## Description
   ${data.description}
