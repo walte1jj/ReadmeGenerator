@@ -7,14 +7,14 @@
   4.  [Usage](#usage)
   5.  [Contributing](#contributing)
   6.  [Tests](#tests)
-  7.  [GitHub](#github)
-  8.  [Email](#email)
+  7.  [Questions](#questions)
+
 
   ## Description
   2
 
   ## License
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+   
 
   ## Installation
   3
@@ -28,8 +28,6 @@
   ## Tests
   6
 
-  ## GitHub
+  ## Questions
   7
-
-  ## Email Address
-  8
+  8"please email me here with any additional questions"

@@ -7,13 +7,13 @@ function renderLicenseBadge(data) {
     licenseStr = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
   };
   if (licenseStr === "MIT") {
-    licenseStr = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
+    licenseStr = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   };
   if (licenseStr === "Attribution License (BY)") {
-    licenseStr = `![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)`
+    licenseStr = `[![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)](https://opendatacommons.org/licenses/by/)`
   };
   if (licenseStr === "GNU GPL v3") {
-    licenseStr = `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`
+    licenseStr = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
   };
   return licenseStr
 };
@@ -39,8 +39,8 @@ function generateMarkdown(data) {
   4.  [Usage](#usage)
   5.  [Contributing](#contributing)
   6.  [Tests](#tests)
-  7.  [GitHub](#github)
-  8.  [Email](#email)
+  7.  [Questions](#questions)
+
 
   ## Description
   ${data.description}
@@ -60,11 +60,9 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
 
-  ## GitHub
+  ## Questions
   ${data.github}
-
-  ## Email Address
-  ${data.email}`;
+  ${data.email}"please email me here with any additional questions"`;
 }
 
 module.exports = generateMarkdown;
