@@ -1,4 +1,4 @@
-# 1
+# generate readme
 
   ## Table of Contents:
   1.  [Description](#description)
@@ -11,23 +11,23 @@
 
 
   ## Description
-  2
+  to generate a readme using node and inquirer
 
   ## License
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Installation
-  3
+  carefully
 
   ## Usage
-  4
+  very carefully
 
   ## Contributing
-  5
+  cash or precious metals 
 
   ## Tests
-  6
+  test
 
   ## Questions
-  7,
-  8 please email me here with any additional questions
+  walte1jj,
+  walte1jj@gmail.com please email me here with any additional questions
