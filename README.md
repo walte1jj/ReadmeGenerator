@@ -29,5 +29,5 @@
   6
 
   ## Questions
-  7
-  8"please email me here with any additional questions"
+  7,
+  8 please email me here with any additional questions
