@@ -1,4 +1,4 @@
-# generate readme
+# readme generator
 
   ## Table of Contents:
   1.  [Description](#description)
@@ -11,7 +11,7 @@
 
 
   ## Description
-  to generate a readme using node and inquirer
+  generate a readme in node using inquirer
 
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -23,10 +23,10 @@
   very carefully
 
   ## Contributing
-  cash or precious metals 
+  cash app or western union
 
   ## Tests
-  test
+  testing
 
   ## Questions
   walte1jj,
